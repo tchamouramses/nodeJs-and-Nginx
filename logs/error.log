@@ -1,0 +1,152 @@
+2021/04/14 12:58:56 [error] 11056#9744: *1 CreateFile() "C:\nginx-1.18.0/html/favicon.ico" failed (2: Le fichier spécifié est introuvable), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/04/14 13:26:35 [error] 11056#9744: *11 directory index of "C:\nginx-1.18.0/html/test/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /test/ HTTP/1.1", host: "localhost"
+2021/04/14 13:26:42 [error] 11056#9744: *11 directory index of "C:\nginx-1.18.0/html/test/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /test/ HTTP/1.1", host: "localhost"
+2021/04/14 13:26:44 [error] 11056#9744: *11 directory index of "C:\nginx-1.18.0/html/test/" is forbidden, client: 127.0.0.1, server: localhost, request: "GET /test/ HTTP/1.1", host: "localhost"
+2021/04/14 13:28:07 [error] 11056#9744: *11 CreateFile() "C:\nginx-1.18.0/html/test/50x" failed (2: Le fichier spécifié est introuvable), client: 127.0.0.1, server: localhost, request: "GET /test/50x HTTP/1.1", host: "localhost"
+2021/04/14 13:28:20 [error] 11056#9744: *11 CreateFile() "C:\nginx-1.18.0/html/test.50x" failed (2: Le fichier spécifié est introuvable), client: 127.0.0.1, server: localhost, request: "GET /test.50x HTTP/1.1", host: "localhost"
+2021/04/14 13:39:04 [notice] 13372#9276: signal process started
+2021/04/14 14:00:27 [notice] 12740#13420: signal process started
+2021/04/14 14:11:18 [emerg] 13404#1992: unexpected ";" in C:\nginx-1.18.0/conf/nginx.conf:69
+2021/04/14 14:11:37 [notice] 7396#984: signal process started
+2021/04/14 14:11:45 [error] 11368#6764: *29 connect() failed (10061: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /test/info.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2021/04/14 14:11:59 [error] 11368#6764: *29 connect() failed (10061: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /test/info.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2021/04/15 16:47:19 [emerg] 7792#7796: bind() to 0.0.0.0:80 failed (10013: Une tentative d’accès à un socket de manière interdite par ses autorisations d’accès a été tentée)
+2021/04/15 16:53:31 [notice] 15868#1712: signal process started
+2021/04/15 16:53:31 [error] 15868#1712: OpenEvent("Global\ngx_reload_4624") failed (2: Le fichier spécifié est introuvable)
+2021/04/15 16:53:41 [notice] 15616#14984: signal process started
+2021/04/15 16:53:41 [error] 15616#14984: OpenEvent("Global\ngx_reload_4624") failed (2: Le fichier spécifié est introuvable)
+2021/04/15 16:54:03 [notice] 17356#9936: signal process started
+2021/04/15 16:54:03 [error] 17356#9936: OpenEvent("Global\ngx_reload_4624") failed (2: Le fichier spécifié est introuvable)
+2021/04/15 16:54:50 [emerg] 9540#11004: bind() to 0.0.0.0:80 failed (10013: Une tentative d’accès à un socket de manière interdite par ses autorisations d’accès a été tentée)
+2021/04/15 16:56:16 [emerg] 15300#16276: bind() to 0.0.0.0:80 failed (10013: Une tentative d’accès à un socket de manière interdite par ses autorisations d’accès a été tentée)
+2021/04/15 17:00:03 [error] 17316#19164: *1 CreateFile() "C:\nginx-1.18.0/html/favicon.ico" failed (2: Le fichier spécifié est introuvable), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/04/15 17:17:07 [error] 17316#19164: *23 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function session() in C:\nginx-1.18.0\html\test\form.php:21
+Stack trace:
+#0 {main}
+  thrown in C:\nginx-1.18.0\html\test\form.php on line 21" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "POST /test/form.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost", referrer: "http://localhost/test/form.php"
+2021/04/15 17:17:28 [error] 17316#19164: *23 FastCGI sent in stderr: "PHP Fatal error:  Uncaught Error: Call to undefined function session() in C:\nginx-1.18.0\html\test\form.php:21
+Stack trace:
+#0 {main}
+  thrown in C:\nginx-1.18.0\html\test\form.php on line 21" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "POST /test/form.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost", referrer: "http://localhost/test/form.php"
+2021/04/15 17:21:30 [error] 17316#19164: *37 FastCGI sent in stderr: "PHP Notice:  Undefined variable: link in C:\nginx-1.18.0\html\test\form.php on line 21
+PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in C:\nginx-1.18.0\html\test\form.php on line 21
+PHP Notice:  Undefined variable: link in C:\nginx-1.18.0\html\test\form.php on line 22
+PHP Notice:  Undefined index: sexe in C:\nginx-1.18.0\html\test\form.php on line 22
+PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in C:\nginx-1.18.0\html\test\form.php on line 22
+PHP Notice:  Undefined variable: link in C:\nginx-1.18.0\html\test\form.php on line 23
+PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in C:\nginx-1.18.0\html\test\form.php on line 23" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "POST /test/form.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost", referrer: "http://localhost/test/form.php"
+2021/04/15 17:21:51 [error] 17316#19164: *37 FastCGI sent in stderr: "PHP Notice:  Undefined variable: link in C:\nginx-1.18.0\html\test\form.php on line 21
+PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in C:\nginx-1.18.0\html\test\form.php on line 21
+PHP Notice:  Undefined variable: link in C:\nginx-1.18.0\html\test\form.php on line 22
+PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in C:\nginx-1.18.0\html\test\form.php on line 22
+PHP Notice:  Undefined variable: link in C:\nginx-1.18.0\html\test\form.php on line 23
+PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in C:\nginx-1.18.0\html\test\form.php on line 23" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "POST /test/form.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost", referrer: "http://localhost/test/form.php"
+2021/04/15 17:24:49 [error] 17316#19164: *42 FastCGI sent in stderr: "PHP Notice:  Undefined variable: mysqli in C:\nginx-1.18.0\html\test\form.php on line 16
+PHP Notice:  Trying to get property 'host_info' of non-object in C:\nginx-1.18.0\html\test\form.php on line 16" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "POST /test/form.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost", referrer: "http://localhost/test/form.php"
+2021/04/15 17:27:48 [error] 17316#19164: *48 CreateFile() "C:\nginx-1.18.0/html/phpmyadmin/themes/pmahomme/img/s_lock.png" failed (3: Le chemin d’accès spécifié est introuvable), client: 127.0.0.1, server: localhost, request: "GET /phpmyadmin/themes/pmahomme/img/s_lock.png HTTP/1.1", host: "localhost", referrer: "http://localhost/phpmyadmin/themes/pmahomme/css/theme.css?v=5.1.0&nocache=6293925667ltr&server=1"
+2021/04/15 17:28:35 [notice] 1500#3028: signal process started
+2021/04/15 17:30:50 [error] 10024#19040: *1 FastCGI sent in stderr: "PHP Notice:  Undefined index: pseudo in C:\nginx-1.18.0\html\test\form.php on line 20
+PHP Notice:  Undefined index: sexe in C:\nginx-1.18.0\html\test\form.php on line 21
+PHP Notice:  Undefined index: age in C:\nginx-1.18.0\html\test\form.php on line 22" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /test/form.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2021/04/15 17:32:01 [notice] 3572#13464: signal process started
+2021/04/15 17:33:55 [emerg] 12960#13276: bind() to 0.0.0.0:80 failed (10013: Une tentative d’accès à un socket de manière interdite par ses autorisations d’accès a été tentée)
+2021/04/15 17:37:18 [error] 19996#16616: *1 FastCGI sent in stderr: "PHP Notice:  Undefined index: pseudo in C:\nginx-1.18.0\html\test\form.php on line 20
+PHP Notice:  Undefined index: sexe in C:\nginx-1.18.0\html\test\form.php on line 21
+PHP Notice:  Undefined index: age in C:\nginx-1.18.0\html\test\form.php on line 22" while reading response header from upstream, client: 127.0.0.1, server: localhost, request: "GET /test/form.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2021/04/22 05:28:10 [error] 13604#10952: *1 CreateFile() "C:\nginx-1.18.0/html/favicon.ico" failed (2: Le fichier spécifié est introuvable), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/04/22 05:28:45 [error] 13604#10952: *1 connect() failed (10061: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /test/form.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2021/04/22 05:43:04 [emerg] 14700#3832: cannot load certificate "C:/etc/letsencrypt/live/mydomain.com/fullchain.pem": BIO_new_file() failed (SSL: error:02001003:system library:fopen:No such process:fopen('C:/etc/letsencrypt/live/mydomain.com/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/04/22 05:43:33 [emerg] 4028#16248: cannot load certificate "C:/etc/letsencrypt/live/mydomain.com/fullchain.pem": BIO_new_file() failed (SSL: error:02001003:system library:fopen:No such process:fopen('C:/etc/letsencrypt/live/mydomain.com/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/04/22 05:44:01 [emerg] 10544#6588: cannot load certificate "C:/etc/letsencrypt/live/mydomain.com/fullchain.pem": BIO_new_file() failed (SSL: error:02001003:system library:fopen:No such process:fopen('C:/etc/letsencrypt/live/mydomain.com/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/04/22 05:44:55 [emerg] 9760#4880: cannot load certificate "C:/etc/letsencrypt/live/mydomain.com/fullchain.pem": BIO_new_file() failed (SSL: error:02001003:system library:fopen:No such process:fopen('C:/etc/letsencrypt/live/mydomain.com/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/04/22 05:44:56 [emerg] 15484#2576: cannot load certificate "C:/etc/letsencrypt/live/mydomain.com/fullchain.pem": BIO_new_file() failed (SSL: error:02001003:system library:fopen:No such process:fopen('C:/etc/letsencrypt/live/mydomain.com/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/04/22 05:49:34 [emerg] 696#7268: cannot load certificate "C:/etc/letsencrypt/live/mydomain.com/fullchain.pem": BIO_new_file() failed (SSL: error:02001003:system library:fopen:No such process:fopen('C:/etc/letsencrypt/live/mydomain.com/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/04/22 05:49:34 [alert] 18428#2420: worker process 696 exited with code 1
+2021/04/22 05:49:34 [alert] 18428#2420: could not respawn worker
+2021/04/22 05:49:36 [emerg] 13044#11720: cannot load certificate "C:/etc/letsencrypt/live/mydomain.com/fullchain.pem": BIO_new_file() failed (SSL: error:02001003:system library:fopen:No such process:fopen('C:/etc/letsencrypt/live/mydomain.com/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/04/22 05:49:36 [alert] 18396#7048: worker process 13044 exited with code 1
+2021/04/22 05:49:36 [alert] 18396#7048: could not respawn worker
+2021/04/22 05:49:42 [emerg] 5140#18284: cannot load certificate "C:/etc/letsencrypt/live/mydomain.com/fullchain.pem": BIO_new_file() failed (SSL: error:02001003:system library:fopen:No such process:fopen('C:/etc/letsencrypt/live/mydomain.com/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/04/22 05:51:46 [emerg] 8332#15140: cannot load certificate "C:/etc/letsencrypt/live/mydomain.com/fullchain.pem": BIO_new_file() failed (SSL: error:02001003:system library:fopen:No such process:fopen('C:/etc/letsencrypt/live/mydomain.com/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/04/22 05:51:46 [alert] 13232#18120: worker process 8332 exited with code 1
+2021/04/22 05:51:46 [alert] 13232#18120: could not respawn worker
+2021/04/22 05:51:53 [emerg] 12112#16200: cannot load certificate "C:/etc/letsencrypt/live/mydomain.com/fullchain.pem": BIO_new_file() failed (SSL: error:02001003:system library:fopen:No such process:fopen('C:/etc/letsencrypt/live/mydomain.com/fullchain.pem','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/04/22 06:05:11 [error] 18088#6528: *10 CreateFile() "C:\nginx-1.18.0/html/favicon.ico" failed (2: Le fichier spécifié est introuvable), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/04/22 06:19:35 [error] 18088#6528: *24 connect() failed (10061: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /phpmyadmin/index.php?route=/database/structure&&server=1&db=rsd418&table= HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2021/04/22 06:34:01 [notice] 1404#15700: signal process started
+2021/04/22 06:41:45 [notice] 10984#15676: signal process started
+2021/04/22 06:45:02 [error] 3736#12540: *13 connect() failed (10061: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /test/test.js HTTP/1.1", upstream: "http://[::1]:3000/test/test.js", host: "localhost"
+2021/04/22 06:45:16 [emerg] 9448#12420: invalid URL prefix in C:\nginx-1.18.0/conf/nginx.conf:51
+2021/04/22 06:45:38 [notice] 13324#880: signal process started
+2021/04/22 06:45:54 [error] 6840#15088: *20 connect() failed (10061: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /test/test.js HTTP/1.1", upstream: "http://[::1]:3000/test/test.js", host: "localhost"
+2021/04/22 06:56:01 [error] 6840#15088: *28 connect() failed (10061: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /test/test.js HTTP/1.1", upstream: "http://[::1]:3000/test/test.js", host: "localhost"
+2021/04/22 06:56:19 [notice] 5040#10884: signal process started
+2021/04/22 06:59:33 [notice] 14700#14204: signal process started
+2021/04/22 06:59:55 [error] 9440#12320: *39 connect() failed (10061: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /test/test.js HTTP/1.1", upstream: "http://[::1]:3000/test/test.js", host: "localhost"
+2021/04/26 17:03:24 [emerg] 13144#15164: bind() to 0.0.0.0:80 failed (10013: Une tentative d’accès à un socket de manière interdite par ses autorisations d’accès a été tentée)
+2021/04/26 17:04:38 [emerg] 5804#9116: bind() to 0.0.0.0:80 failed (10013: Une tentative d’accès à un socket de manière interdite par ses autorisations d’accès a été tentée)
+2021/04/26 17:05:51 [error] 4912#14872: *1 connect() failed (10061: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /phpmyadmin/index.php?route=/database/structure&server=1&db=test HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost"
+2021/04/26 17:07:09 [error] 4912#14872: *1 CreateFile() "C:\nginx-1.18.0/html/favicon.ico" failed (2: Le fichier spécifié est introuvable), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/04/26 17:10:58 [error] 4912#14872: *5 connect() failed (10061: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /test/server.js HTTP/1.1", upstream: "http://[::1]:3000/test/server.js", host: "localhost"
+2021/04/26 17:11:00 [error] 4912#14872: *5 connect() failed (10061: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /test/server.js HTTP/1.1", upstream: "http://127.0.0.1:3000/test/server.js", host: "localhost"
+2021/04/26 17:13:09 [error] 4912#14872: *9 connect() failed (10061: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /test/test.js HTTP/1.1", upstream: "http://127.0.0.1:3000/test/test.js", host: "localhost"
+2021/04/26 17:13:11 [error] 4912#14872: *9 connect() failed (10061: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /test/test.js HTTP/1.1", upstream: "http://[::1]:3000/test/test.js", host: "localhost"
+2021/04/26 17:18:53 [error] 4912#14872: *13 connect() failed (10061: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /test/test.js HTTP/1.1", upstream: "http://[::1]:3000/test/test.js", host: "localhost"
+2021/04/26 17:19:11 [error] 4912#14872: *13 connect() failed (10061: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /test/test.js HTTP/1.1", upstream: "http://[::1]:3000/test/test.js", host: "localhost"
+2021/04/26 17:22:21 [error] 4912#14872: *31 connect() failed (10061: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /test/test.js HTTP/1.1", upstream: "http://[::1]:3000/test/test.js", host: "localhost"
+2021/04/27 16:16:08 [emerg] 456#14864: host not found in upstream "localhost" in C:\nginx-1.18.0/conf/nginx.conf:51
+2021/04/27 16:23:37 [emerg] 17092#10276: host not found in upstream "localhost" in C:\nginx-1.18.0/conf/nginx.conf:51
+2021/04/27 16:38:57 [emerg] 7564#15100: host not found in upstream "localhost" in C:\nginx-1.18.0/conf/nginx.conf:51
+2021/04/27 16:39:08 [emerg] 7392#9300: host not found in upstream "localhost" in C:\nginx-1.18.0/conf/nginx.conf:51
+2021/04/27 16:40:03 [emerg] 11856#8320: host not found in upstream "localhost" in C:\nginx-1.18.0/conf/nginx.conf:51
+2021/04/27 16:40:32 [emerg] 5580#8152: host not found in upstream "localhost" in C:\nginx-1.18.0/conf/nginx.conf:51
+2021/04/27 16:41:21 [emerg] 12424#14880: host not found in upstream "localhost" in C:\nginx-1.18.0/conf/nginx.conf:51
+2021/04/27 16:41:24 [emerg] 10716#16020: host not found in upstream "localhost" in C:\nginx-1.18.0/conf/nginx.conf:51
+2021/04/27 16:41:25 [emerg] 13136#16108: host not found in upstream "localhost" in C:\nginx-1.18.0/conf/nginx.conf:51
+2021/04/27 16:41:38 [notice] 10152#13884: signal process started
+2021/04/27 16:41:38 [error] 10152#13884: OpenEvent("Global\ngx_stop_15304") failed (2: Le fichier spécifié est introuvable)
+2021/04/27 16:41:47 [notice] 9600#11792: signal process started
+2021/04/27 16:41:56 [notice] 3944#13420: signal process started
+2021/04/27 16:42:03 [notice] 13660#14520: signal process started
+2021/04/27 16:42:03 [error] 13660#14520: CreateFile() "C:\nginx-1.18.0/logs/nginx.pid" failed (2: Le fichier spécifié est introuvable)
+2021/04/27 16:42:05 [notice] 15968#10248: signal process started
+2021/04/27 16:42:05 [error] 15968#10248: CreateFile() "C:\nginx-1.18.0/logs/nginx.pid" failed (2: Le fichier spécifié est introuvable)
+2021/04/27 16:42:19 [emerg] 8088#14784: host not found in upstream "localhost" in C:\nginx-1.18.0/conf/nginx.conf:51
+2021/04/27 16:42:21 [emerg] 904#1620: host not found in upstream "localhost" in C:\nginx-1.18.0/conf/nginx.conf:51
+2021/04/27 16:42:50 [notice] 15440#16900: signal process started
+2021/04/27 16:42:50 [error] 15440#16900: CreateFile() "C:\nginx-1.18.0/logs/nginx.pid" failed (2: Le fichier spécifié est introuvable)
+2021/04/27 16:42:56 [notice] 15652#3620: signal process started
+2021/04/27 16:43:01 [notice] 17252#3324: signal process started
+2021/04/27 16:43:01 [error] 17252#3324: CreateFile() "C:\nginx-1.18.0/logs/nginx.pid" failed (2: Le fichier spécifié est introuvable)
+2021/04/27 16:43:07 [notice] 12432#16000: signal process started
+2021/04/27 16:48:19 [notice] 7524#12164: signal process started
+2021/04/27 16:48:20 [notice] 3228#16404: signal process started
+2021/04/27 16:48:20 [error] 3228#16404: CreateFile() "C:\nginx-1.18.0/logs/nginx.pid" failed (2: Le fichier spécifié est introuvable)
+2021/04/27 16:51:28 [notice] 10464#11912: signal process started
+2021/04/27 16:51:39 [error] 3636#868: *1 CreateFile() "C:\nginx-1.18.0/html/favicon.ico" failed (2: Le fichier spécifié est introuvable), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:4200", referrer: "http://localhost:4200/"
+2021/04/27 16:52:16 [error] 3636#868: *1 connect() failed (10061: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /test/test.php HTTP/1.1", upstream: "fastcgi://127.0.0.1:9000", host: "localhost:4200"
+2021/04/27 17:43:55 [notice] 6576#492: signal process started
+2021/04/27 17:44:07 [error] 2844#2492: *7 connect() failed (10061: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /test/test.jsp HTTP/1.1", upstream: "http://[::1]:8080/test/test.jsp", host: "localhost:4200"
+2021/04/27 17:44:09 [error] 2844#2492: *7 connect() failed (10061: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /test/test.jsp HTTP/1.1", upstream: "http://127.0.0.1:8080/test/test.jsp", host: "localhost:4200"
+2021/04/27 17:44:21 [error] 2844#2492: *7 connect() failed (10061: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /test/test.jsp HTTP/1.1", upstream: "http://[::1]:8080/test/test.jsp", host: "localhost:4200"
+2021/04/27 17:44:23 [error] 2844#2492: *7 connect() failed (10061: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /test/test.jsp HTTP/1.1", upstream: "http://127.0.0.1:8080/test/test.jsp", host: "localhost:4200"
+2021/04/27 17:44:49 [notice] 10688#16448: signal process started
+2021/04/27 17:44:52 [notice] 11240#11100: signal process started
+2021/04/27 17:48:45 [notice] 16460#6392: signal process started
+2021/04/27 17:48:45 [error] 16460#6392: CreateFile() "C:\nginx-1.18.0/logs/nginx.pid" failed (2: Le fichier spécifié est introuvable)
+2021/04/27 17:48:51 [notice] 5796#7388: signal process started
+2021/04/27 17:48:58 [notice] 840#16888: signal process started
+2021/04/27 17:49:12 [error] 4312#976: *1 connect() failed (10061: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /test/test.jsp HTTP/1.1", upstream: "http://[::1]:8080/test/test.jsp", host: "localhost:4200"
+2021/04/27 17:49:14 [error] 4312#976: *1 connect() failed (10061: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /test/test.jsp HTTP/1.1", upstream: "http://127.0.0.1:8080/test/test.jsp", host: "localhost:4200"
+2021/04/27 17:49:45 [error] 4312#976: *1 connect() failed (10061: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /test/test.jsp HTTP/1.1", upstream: "http://127.0.0.1:8080/test/test.jsp", host: "localhost:4200"
+2021/04/27 17:49:47 [error] 4312#976: *1 connect() failed (10061: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /test/test.jsp HTTP/1.1", upstream: "http://[::1]:8080/test/test.jsp", host: "localhost:4200"
+2021/04/27 17:52:37 [notice] 12784#14416: signal process started
+2021/04/27 17:53:29 [notice] 13468#1280: signal process started
+2021/04/27 17:53:35 [notice] 16408#7832: signal process started
+2021/04/27 17:54:40 [notice] 10344#9384: signal process started
+2021/04/27 17:55:47 [notice] 17108#16684: signal process started
+2021/04/27 17:58:57 [notice] 1668#2592: signal process started
+2021/04/27 17:59:28 [notice] 5564#15196: signal process started
+2021/04/27 18:04:18 [notice] 11040#15972: signal process started
+2021/04/27 18:14:54 [notice] 10844#15980: signal process started
+2021/04/27 18:16:37 [notice] 12580#7784: signal process started
